@@ -1,0 +1,17 @@
+.caixa{
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 10px;
+}
+
+.container{
+    display: flex ;
+    flex-direction: row; /*isso define a direcao que os itens vao ficar, mudando ou nao mudando a sua ordem*/
+    background-color: brown;
+    justify-content: center; /*apenas muda de lugar o item, sem mudar a sua ordem "usando ou nao o flex-,space-,*/
+    height: 400px;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap-reverse;/*orgazina os itens para caso precise uma quebra de coluna, ou nao poder quebrar a coluna*/
+}
+ 
